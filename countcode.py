@@ -9,8 +9,7 @@ if __name__ == '__main__':
 	try:
 		base_dir = str(sys.argv[1])
 		extensions = [str(ext) if ext[0] == "." else "."+ext for ext in sys.argv[2:]]
-		print base_dir
-		if len(extensions) == 0:
+		if len(extensions) != 0:
 			print "Checking " + str(len(extensions)) + " extensions:", extensions
 		else:
 			print "Checking all extensions"
