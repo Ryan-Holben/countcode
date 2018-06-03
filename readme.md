@@ -6,9 +6,7 @@ Usage:
 
 `./countcode.py [base_directory] [ext1 ext2 ext3 ...]`
 
-If no extensions are provided, all types of files will be counted.
-
-Including the `.` in front of your extension is optional (both `.cpp` and `cpp` work).
+If no extensions are provided, all types of files will be counted. Including the `.` in front of your extension is optional (e.g. both `.cpp` and `cpp` work). Results are sorted by number of lines.
 
 Example output:
 
